@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -16,12 +18,65 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Poppins", sans-serif;
+}
+
+@layer utilities {
+  /* 700 */
+  .heading-1 {
+    @apply font-bold text-[64px];
+  }
+
+  .heading-2 {
+    @apply font-bold text-[48px];
+  }
+
+  /* 600 */
+  .heading-3 {
+    @apply font-semibold text-[32px];
+  }
+
+  /* 400 */
+  .base-regular {
+    @apply font-normal text-[24px];
+  }
+
+  .p-regular {
+    @apply font-normal text-[20px];
+  }
+
+  .b-regular {
+    @apply font-normal text-[18px];
+  }
+
+  .s-regular {
+    @apply font-normal text-[14px];
+  }
+  /* 600 */
+  .base-bold {
+    @apply font-semibold text-[24px];
+  }
+
+  .p-bold {
+    @apply font-semibold text-[20px];
+  }
+
+  .b-bold {
+    @apply font-semibold text-[18px];
+  }
+
+  .s-bold {
+    @apply font-semibold text-[14px];
+  }
+
+  .active {
+    @apply text-accent-primaryLight dark:text-accent-primaryDark;
+  }
 }
