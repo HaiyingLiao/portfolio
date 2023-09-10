@@ -38,9 +38,29 @@ body {
     @apply font-bold text-[48px];
   }
 
+  .heading-3 {
+    @apply font-bold text-[42px];
+  }
+
   /* 600 */
   .heading-3 {
     @apply font-semibold text-[32px];
+  }
+
+  .base-bold {
+    @apply font-semibold text-[24px];
+  }
+
+  .p-bold {
+    @apply font-semibold text-[20px];
+  }
+
+  .b-bold {
+    @apply font-semibold text-[18px];
+  }
+
+  .s-bold {
+    @apply font-semibold text-[14px];
   }
 
   /* 400 */
@@ -59,21 +79,9 @@ body {
   .s-regular {
     @apply font-normal text-[14px];
   }
-  /* 600 */
-  .base-bold {
-    @apply font-semibold text-[24px];
-  }
 
-  .p-bold {
-    @apply font-semibold text-[20px];
-  }
-
-  .b-bold {
-    @apply font-semibold text-[18px];
-  }
-
-  .s-bold {
-    @apply font-semibold text-[14px];
+  .xs-regular {
+    @apply font-normal text-[12px];
   }
 }
 
@@ -85,5 +93,10 @@ body {
 
   .dropDownIcons {
     @apply mr-2 h-4 w-4;
+  }
+
+  /* common */
+  .primaryBtn {
+    @apply bg-accent-primaryLight dark:bg-accent-primaryDark rounded-[50px] text-white py-2 md:py-3 items-center flex justify-center;
   }
 }
