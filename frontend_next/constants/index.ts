@@ -45,3 +45,27 @@ export const techs = [
     colorImg: "hover:bg-[url('/assets/next.png')]",
   },
 ];
+
+export const projects = [
+  {
+    title: "Morrent - A Car Rental Application",
+    techs: ["ReactJS, Next.js", "Nodejs, MongoDB"],
+    imagePath: "/assets/morent.svg",
+    bgColor: "bg-[#416CEA]",
+    imageLocation: "right",
+  },
+  {
+    title: "JobIT - A Job Finding Application",
+    techs: ["ReactJS, Next.js", "Nodejs, MongoDB"],
+    imagePath: "/assets/jobit.svg",
+    bgColor: "bg-[#0BAB7C]",
+    imageLocation: "left",
+  },
+  {
+    title: "Hipnode - A Social Media Application",
+    techs: ["ReactJS, Next.js", "Nodejs, MongoDB"],
+    imagePath: "/assets/hipnode.svg",
+    bgColor: "bg-[#FF6934]",
+    imageLocation: "right",
+  },
+];

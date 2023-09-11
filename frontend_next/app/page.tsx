@@ -4,8 +4,9 @@ import Image from "next/image";
 import Techs from "@/components/Techs";
 import ServiceCard from "@/components/ServiceCard";
 import Experience from "@/components/Experience";
-import Projects from "@/components/Projects";
+import ProjectCard from "@/components/ProjectCard";
 import Testimonial from "@/components/Testimonial";
+import { projects } from "@/constants";
 
 export default function Home() {
   return (
@@ -57,25 +58,35 @@ export default function Home() {
         <Techs />
       </section>
 
-      <section>
-        {/* Services section */}
-
+      {/* Services section */}
+      <section className="bg-1 py-[72px]">
+        <h2 className="sectionTitle"> What service do I provide</h2>
         <ServiceCard />
       </section>
 
+      {/* Work experience section */}
       <section>
-        {/* Work experience section */}
         <Experience />
       </section>
 
-      <section id="mywork">
-        {/* Projects section */}
-
-        <Projects />
+      {/* Projects section */}
+      <section id="mywork" className="bg-2 py-[72px]">
+        <h2 className="sectionTitle"> Featured Projects</h2>
+        {projects.map((project) => (
+          <ProjectCard key={project.title} project={project} />
+        ))}
+        <Link
+          href="/case-studies"
+          className="primaryBtn b-regular md:b-bold mx-auto mt-10 max-w-[323px] gap-3 md:mt-12"
+        >
+          See more case studies
+          <Image src="/assets/arrow1.svg" alt="arrow" width={16} height={16} />
+        </Link>
       </section>
 
-      <section>
-        {/* Testimonial section */}
+      {/* Testimonial section */}
+      <section className="bg-1 py-[72px]">
+        <h2 className="sectionTitle"> What they say about me</h2>
         <Testimonial />
       </section>
 
