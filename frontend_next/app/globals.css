@@ -59,6 +59,10 @@ body {
     @apply font-semibold text-[32px];
   }
 
+  .heading-8 {
+    @apply font-semibold text-[28px];
+  }
+
   .base-bold {
     @apply font-semibold text-[24px];
   }
@@ -73,6 +77,10 @@ body {
 
   .s-bold {
     @apply font-semibold text-[14px];
+  }
+
+  .xs-bold {
+    @apply font-semibold text-[12px];
   }
 
   /* 400 */
@@ -136,6 +144,15 @@ body {
   /* project */
   .techContainer {
     @apply rounded-md bg-[#ffffff33] p-2.5;
+  }
+
+  /* case study */
+  .caseSubtitle {
+    @apply text-accent-primaryLight dark:text-accent-primaryDark xs-bold leading-[145%] md:s-bold mb-3;
+  }
+
+  .caseTitle {
+    @apply heading-8 md:heading-7 leading-[105%] tracking-[-0.14px] md:tracking-[-0.16px] dark:text-white text-black-200;
   }
 }
 
