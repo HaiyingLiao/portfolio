@@ -126,3 +126,11 @@ body {
     @apply rounded-md bg-[#ffffff33] p-2.5;
   }
 }
+
+.swiper-button-next {
+  @apply top-32 md:top-[50%]  !important;
+}
+
+.swiper-button-prev {
+  @apply top-32 md:top-[50%]  !important;
+}

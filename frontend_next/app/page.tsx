@@ -11,7 +11,7 @@ import { projects } from "@/constants";
 export default function Home() {
   return (
     <>
-      <section className="bg-1 flex flex-col items-center justify-between pb-8 pt-12 md:flex-row md:pb-24 md:pt-20">
+      <section className="bg-1 flex flex-col items-center justify-between gap-8 pb-8 pt-12 md:flex-row md:pb-24 md:pt-20">
         <div className="md:max-w-[500px]">
           <h1 className="text-accent-primaryLight s-bold md:p-bold dark:text-accent-primaryDark mb-5 uppercase leading-[130%] tracking-[4.2px] md:mb-7 md:tracking-[6px]">
             Hi, I am Haiying Liao

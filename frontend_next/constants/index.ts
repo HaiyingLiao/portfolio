@@ -44,6 +44,11 @@ export const techs = [
     garyImg: "bg-[url('/assets/next-gray.png')]",
     colorImg: "hover:bg-[url('/assets/next.png')]",
   },
+  {
+    name: "html",
+    garyImg: "bg-[url('/assets/html-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/html.svg')]",
+  },
 ];
 
 export const projects = [
@@ -67,5 +72,22 @@ export const projects = [
     imagePath: "/assets/hipnode.svg",
     bgColor: "bg-[#FF6934]",
     imageLocation: "right",
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Adrian Hajdin",
+    jobTitle: "Founder & CEO at JS Mastery",
+    comment:
+      "I have had the pleasure of working with Adrian as a Software Developer and can confidently say that he is a valuable asset to any team. He is highly skilled in ReactJS, NextJS, Javascript, Material UI, Tailwind CSS, Redux, and GitHub, and consistently delivers high-quality code.",
+    photo: "/assets/Adrian.svg",
+  },
+  {
+    name: "Adrian Hajdin 2",
+    jobTitle: "Founder & CEO at JS Mastery",
+    comment:
+      "I have had the pleasure of working with Adrian as a Software Developer and can confidently say that he is a valuable asset to any team. He is highly skilled in ReactJS, NextJS, Javascript, Material UI, Tailwind CSS, Redux, and GitHub, and consistently delivers high-quality code.",
+    photo: "/assets/Adrian.svg",
   },
 ];
