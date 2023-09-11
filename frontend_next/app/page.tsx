@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Title from "@/components/Title";
 import Techs from "@/components/Techs";
 import ServiceCard from "@/components/ServiceCard";
 import Experience from "@/components/Experience";
@@ -11,7 +10,7 @@ import Testimonial from "@/components/Testimonial";
 export default function Home() {
   return (
     <>
-      <section className="flex flex-col items-center justify-between pb-8 pt-12 md:flex-row md:pb-24 md:pt-20">
+      <section className="bg-1 flex flex-col items-center justify-between pb-8 pt-12 md:flex-row md:pb-24 md:pt-20">
         <div className="md:max-w-[500px]">
           <h1 className="text-accent-primaryLight s-bold md:p-bold dark:text-accent-primaryDark mb-5 uppercase leading-[130%] tracking-[4.2px] md:mb-7 md:tracking-[6px]">
             Hi, I am Haiying Liao
@@ -52,15 +51,15 @@ export default function Home() {
         />
       </section>
 
-      <section>
-        {/* my skill section */}
-        <Title />
+      {/* my skill section */}
+      <section className="bg-2 py-[72px]">
+        <h2 className="sectionTitle">My Skills</h2>
         <Techs />
       </section>
 
       <section>
         {/* Services section */}
-        <Title />
+
         <ServiceCard />
       </section>
 
@@ -71,7 +70,7 @@ export default function Home() {
 
       <section id="mywork">
         {/* Projects section */}
-        <Title />
+
         <Projects />
       </section>
 

@@ -11,7 +11,7 @@ const NavBar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex justify-between">
+    <nav className="bg-1 flex justify-between pt-9">
       <Link href="/">
         <Image src="/logo.png" alt="logo" width={45} height={45} />
       </Link>
