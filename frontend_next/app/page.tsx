@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Techs from "@/components/Techs";
-import ServiceCard from "@/components/ServiceCard";
+import Service from "@/components/Service";
 import Experience from "@/components/Experience";
 import ProjectCard from "@/components/ProjectCard";
 import Testimonial from "@/components/Testimonial";
@@ -61,7 +61,7 @@ export default function Home() {
       {/* Services section */}
       <section className="bg-1 py-[72px]">
         <h2 className="sectionTitle"> What service do I provide</h2>
-        <ServiceCard />
+        <Service />
       </section>
 
       {/* Work experience section */}

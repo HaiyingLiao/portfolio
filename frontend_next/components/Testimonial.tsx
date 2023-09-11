@@ -17,19 +17,19 @@ const Testimonial = () => {
             <Image
               src={testimonial.photo}
               alt="arrow"
-              width={328}
-              height={328}
-              className="mx-auto "
+              width={0}
+              height={0}
+              className="mx-auto h-[220px] w-[220px] md:h-[328px] md:w-[328px]"
             />
-            <div className="">
-              <p className="text-white-500 b-regular md:base-regular mb-8 leading-[160%] md:leading-[130%]">
+            <div className="flex flex-col justify-center">
+              <p className="text-white-500 dark:text-white-800 b-regular md:base-regular mb-8 leading-[160%] md:leading-[130%]">
                 {testimonial.comment}
               </p>
 
-              <h2 className="b-bold text-black-300 leading-[160%]">
+              <h2 className="b-bold text-black-300 leading-[160%] dark:text-white">
                 — {testimonial.name}
               </h2>
-              <h3 className="b-regular text-white-500 leading-[160%]">
+              <h3 className="b-regular text-white-500 dark:text-white-800 leading-[160%]">
                 {testimonial.jobTitle}
               </h3>
             </div>
