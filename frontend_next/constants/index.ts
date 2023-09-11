@@ -13,6 +13,11 @@ export const navLinks = [
   },
 ];
 
+export const socialIcons = [
+  { name: "github", icon: "/assets/github.svg" },
+  { name: "linkedin", icon: "/assets/linkedin.svg" },
+];
+
 export const techs = [
   {
     name: "ts",
