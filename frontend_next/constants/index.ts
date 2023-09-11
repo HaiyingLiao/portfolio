@@ -14,7 +14,7 @@ export const navLinks = [
 ];
 
 export const socialIcons = [
-  { name: "github", icon: "/assets/github.svg" },
+  { name: "github", icon: "/assets/github-social.svg" },
   { name: "linkedin", icon: "/assets/linkedin.svg" },
 ];
 
