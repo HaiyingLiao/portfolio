@@ -164,3 +164,24 @@ export const services = [
     icon: "/assets/tag.svg",
   },
 ];
+
+export const caseStudies = [
+  {
+    title: "Morrent",
+    desc: "Car Rental Application",
+    imagePath: "/assets/morent-laptop.svg",
+    bgColor: "bg-[#416CEA]",
+  },
+  {
+    title: "JobIT",
+    desc: "Job Finding Application",
+    imagePath: "/assets/jobit-laptop.svg",
+    bgColor: "bg-[#0BAB7C]",
+  },
+  {
+    title: "Hipnode",
+    desc: "Social Platform for Developers",
+    imagePath: "/assets/hipnode-laptop.svg",
+    bgColor: "bg-[#FF6934]",
+  },
+];

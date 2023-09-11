@@ -55,7 +55,7 @@ body {
   }
 
   /* 600 */
-  .heading-3 {
+  .heading-7 {
     @apply font-semibold text-[32px];
   }
 
@@ -118,6 +118,14 @@ body {
 
   .bg-2 {
     @apply bg-white dark:bg-black-200 px-6 md:px-[85px];
+  }
+
+  .pageTitle {
+    @apply text-black-200 heading-3 dark:text-white md:heading-1 leading-[130%] md:tracking-[-0.64px] tracking-[-0.42px];
+  }
+
+  .pageSubTitle {
+    @apply text-white-500 s-regular md:p-regular md:leading-[150%] leading-[155%] dark:text-white-800;
   }
 
   /* home */
