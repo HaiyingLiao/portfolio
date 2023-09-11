@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Work experience section */}
-      <section>
+      <section className="bg-2 py-[72px]">
         <Experience />
       </section>
 

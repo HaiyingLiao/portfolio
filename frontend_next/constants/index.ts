@@ -146,7 +146,7 @@ export const services = [
   {
     title: "Back-End Dev",
     desc: " Front-end includes creating the user interface and interactive elements of websites and apps.",
-    icon: "/assets/tag.svg",
+    icon: "/assets/design.svg",
   },
   {
     title: "Back-End Dev",
