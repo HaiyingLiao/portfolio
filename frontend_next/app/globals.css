@@ -105,7 +105,7 @@ body {
 
   /* common */
   .primaryBtn {
-    @apply bg-accent-primaryLight dark:bg-accent-primaryDark rounded-[50px] text-white py-2 md:py-3 items-center flex justify-center;
+    @apply bg-accent-primaryLight hover:bg-[#0252cde6] dark:hover:bg-[#42a1ffe6] dark:bg-accent-primaryDark rounded-[50px] text-white py-2 md:py-3 items-center flex justify-center;
   }
 
   .bg-1 {

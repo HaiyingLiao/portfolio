@@ -26,28 +26,78 @@ export const techs = [
   },
   {
     name: "js",
-    garyImg: "bg-[url('/assets/js-gray.png')]",
-    colorImg: "hover:bg-[url('/assets/js.png')]",
+    garyImg: "bg-[url('/assets/js-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/js.svg')]",
   },
   {
     name: "react",
-    garyImg: "bg-[url('/assets/react-gray.png')]",
-    colorImg: "hover:bg-[url('/assets/react.png')]",
+    garyImg: "bg-[url('/assets/react-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/react.svg')]",
   },
   {
     name: "redux",
-    garyImg: "bg-[url('/assets/redux-gray.png')]",
-    colorImg: "hover:bg-[url('/assets/redux.png')]",
+    garyImg: "bg-[url('/assets/redux-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/redux.svg')]",
   },
   {
     name: "next",
-    garyImg: "bg-[url('/assets/next-gray.png')]",
-    colorImg: "hover:bg-[url('/assets/next.png')]",
+    garyImg: "bg-[url('/assets/next-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/next.svg')]",
   },
   {
     name: "html",
     garyImg: "bg-[url('/assets/html-gray.svg')]",
     colorImg: "hover:bg-[url('/assets/html.svg')]",
+  },
+  {
+    name: "css",
+    garyImg: "bg-[url('/assets/css-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/css.svg')]",
+  },
+  {
+    name: "sass",
+    garyImg: "bg-[url('/assets/sass-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/sass.svg')]",
+  },
+  {
+    name: "mui",
+    garyImg: "bg-[url('/assets/mui-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/mui.svg')]",
+  },
+  {
+    name: "tailwind",
+    garyImg: "bg-[url('/assets/tailwind-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/tailwind.svg')]",
+  },
+  {
+    name: "motion",
+    garyImg: "bg-[url('/assets/motion-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/motion.svg')]",
+  },
+  {
+    name: "git",
+    garyImg: "bg-[url('/assets/git-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/git.svg')]",
+  },
+  {
+    name: "github",
+    garyImg: "bg-[url('/assets/github-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/github.svg')]",
+  },
+  {
+    name: "nodejs",
+    garyImg: "bg-[url('/assets/nodejs-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/nodejs.svg')]",
+  },
+  {
+    name: "ex",
+    garyImg: "bg-[url('/assets/ex-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/ex.svg')]",
+  },
+  {
+    name: "mongodb",
+    garyImg: "bg-[url('/assets/mongodb-gray.svg')]",
+    colorImg: "hover:bg-[url('/assets/mongodb.svg')]",
   },
 ];
 
