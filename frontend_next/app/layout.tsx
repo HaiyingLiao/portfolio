@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import CallToAction from "@/components/callToAction";
 
 export const metadata: Metadata = {
   title: "Haiying Liao's portfolio",
@@ -19,7 +20,10 @@ export default function RootLayout({
       <body>
         <NavBar />
 
-        <main>{children}</main>
+        <main>
+          {children}
+          <CallToAction />
+        </main>
 
         <Footer />
       </body>

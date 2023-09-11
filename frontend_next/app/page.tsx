@@ -89,28 +89,6 @@ export default function Home() {
         <h2 className="sectionTitle"> What they say about me</h2>
         <Testimonial />
       </section>
-
-      {/* Contact section */}
-      <section className="bg-2 ">
-        <div className="mt-6 flex h-full min-h-[400px] flex-col items-center justify-center bg-[url('/assets/bg.svg')] bg-center bg-no-repeat p-5 lg:flex-row lg:justify-around">
-          <h1 className="heading-6 md:heading-2 text-black-200 max-w-[520px] leading-[115%] tracking-[-0.48px]">
-            Have a project in mind that requires technical expertise?
-          </h1>
-
-          <Link
-            href="/my-work"
-            className="primaryBtn b-regular md:b-bold mt-3 w-full gap-3 px-4 sm:max-w-[323px]"
-          >
-            Get in Touch with Me
-            <Image
-              src="/assets/arrow1.svg"
-              alt="arrow"
-              width={16}
-              height={16}
-            />
-          </Link>
-        </div>
-      </section>
     </>
   );
 }
