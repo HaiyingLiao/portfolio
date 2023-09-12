@@ -1,10 +1,8 @@
-import "./globals.css";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
-import NavBar from "@/components/NavBar";
-import Footer from "@/components/Footer";
-import CallToAction from "@/components/CallToAction";
+import "./globals.css";
+import { NavBar, Footer, CallToAction } from "@/components/index";
 
 export const metadata: Metadata = {
   title: "Haiying Liao's portfolio",

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div className="flex flex-col gap-7 xl:flex-row">
+    <section className="bg-2 flex flex-col gap-7 xl:flex-row">
       <div className="bg-black-200 dark:bg-white-800 max-w-[670px] rounded-2xl px-[38px] pb-[38px] pt-[58px] lg:pb-[105px] lg:pl-[105px] lg:pr-[143px] lg:pt-[152px]">
         <h2 className="heading-4 lg:heading-2 dark:text-black-200 mb-9 leading-[115%] tracking-[-0.48px] text-white">
           Work Experience
@@ -38,7 +38,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

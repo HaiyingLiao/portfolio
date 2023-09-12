@@ -5,7 +5,7 @@ import { caseStudies } from "@/constants";
 export default function CaseStudies() {
   return (
     <>
-      <section className="bg-1 py-[72px] text-center">
+      <section className="bg-1 text-center">
         <h1 className="pageTitle">Recent Case Studies</h1>
         <p className="pageSubTitle mx-auto max-w-[658px]">
           Dive into my recent success stories and discover how I have helpe
@@ -13,7 +13,7 @@ export default function CaseStudies() {
         </p>
       </section>
 
-      <section className="bg-2 flex flex-wrap justify-center gap-5 py-[72px] md:gap-9">
+      <section className="bg-2 flex flex-wrap justify-center gap-5 md:gap-9">
         {caseStudies.map((project) => (
           <div key={project.title}>
             <div
