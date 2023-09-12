@@ -1,17 +1,4 @@
-const caseInfo = [
-  {
-    title: "My Role",
-    content: "Software Engineer",
-  },
-  {
-    title: "Start Date",
-    content: "24/01/2023",
-  },
-  {
-    title: "End Date",
-    content: "02/03/2023",
-  },
-];
+import { caseInfo } from "@/constants";
 
 const Info = () => {
   return (
