@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
+import { Toaster } from "@/components/ui/toaster";
 
-import "./globals.css";
+import "../globals.css";
 import { NavBar, Footer, CallToAction } from "@/components/index";
 
 export const metadata: Metadata = {
-  title: "Haiying Liao's portfolio",
-  description: "Haiying Liao's portfolio",
+  title: "contact",
+  description: "Haiying Liao's contact detail",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </main>
 
         <Footer />
+        <Toaster />
       </body>
     </html>
   );

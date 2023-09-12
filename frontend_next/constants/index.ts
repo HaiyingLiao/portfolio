@@ -1,5 +1,3 @@
-import image from "next/image";
-
 export const navLinks = [
   {
     href: "/",
@@ -283,5 +281,45 @@ export const caseStudyCard = [
     content:
       "Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...",
     image: "/assets/hipnode-card.svg",
+  },
+];
+
+export const contactFormInfo = [
+  {
+    label: "name",
+    title: "What’s your name?",
+  },
+  {
+    label: "email",
+    title: "What is your email?",
+  },
+  {
+    label: "message",
+    title: "Write something here",
+  },
+  {
+    label: "contact",
+    title: "How to reach out to you back?",
+    subTitle: "eg. phone number or email ",
+  },
+];
+
+export const myInfo = [
+  {
+    label: "My Socials",
+    icons: [
+      { name: "github", icon: "/assets/github-social.svg" },
+      { name: "linkedin", icon: "/assets/linkedin.svg" },
+    ],
+  },
+  {
+    label: "Phone Number",
+    content: "+44 7450505104",
+    icon: "/assets/call.svg",
+  },
+  {
+    label: "Email Address",
+    content: "haiying.liao@outlook.com",
+    icon: "/assets/message.svg",
   },
 ];

@@ -170,6 +170,15 @@ body {
   .gainsContentContainer {
     @apply mt-5 flex items-start gap-4;
   }
+
+  /* contact page */
+  .infoTitle {
+    @apply p-regular md:base-regular leading-[150%] text-black-300 md:leading-[130%] dark:text-white;
+  }
+
+  .infoIcons {
+    @apply h-6 w-6 md:h-[30px] md:w-[30px] dark:invert-[100%] dark:brightness-0;
+  }
 }
 
 .swiper-button-next {

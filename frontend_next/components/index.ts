@@ -1,7 +1,7 @@
 import Info from "./caseStudy/Info";
 import TechStack from "./caseStudy/TechStack";
 import CallToAction from "./CallToAction";
-import ContactForm from "./ContactForm";
+import ContactForm from "./caseStudy/ContactForm";
 import Experience from "./Experience";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
@@ -12,6 +12,7 @@ import Testimonial from "./Testimonial";
 import Process from "./caseStudy/Process";
 import Gains from "./caseStudy/Gains";
 import RelevantCaseStudies from "./caseStudy/RelevantCaseStudies";
+import MyInfo from "./caseStudy/MyInfo";
 
 export {
   Info,
@@ -28,4 +29,5 @@ export {
   Process,
   Gains,
   RelevantCaseStudies,
+  MyInfo,
 };
