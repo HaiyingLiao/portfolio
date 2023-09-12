@@ -9,6 +9,7 @@ import ProjectCard from "./ProjectCard";
 import Service from "./Service";
 import Techs from "./Techs";
 import Testimonial from "./Testimonial";
+import Process from "./caseStudy/Process";
 
 export {
   Info,
@@ -22,4 +23,5 @@ export {
   Service,
   Techs,
   Testimonial,
+  Process,
 };

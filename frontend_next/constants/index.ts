@@ -201,3 +201,46 @@ export const caseStudies = [
     bgColor: "bg-[#FF6934]",
   },
 ];
+
+export const caseInfo = [
+  {
+    title: "My Role",
+    content: "Software Engineer",
+  },
+  {
+    title: "Start Date",
+    content: "24/01/2023",
+  },
+  {
+    title: "End Date",
+    content: "02/03/2023",
+  },
+];
+
+export const processes = [
+  {
+    name: "Definition",
+    lightImg: "bg-[url('/assets/def.svg')]",
+    darkImg: "dark:bg-[url('/assets/def-dark.svg')]",
+  },
+  {
+    name: "Design",
+    lightImg: "bg-[url('/assets/case-design.svg')]",
+    darkImg: "dark:bg-[url('/assets/design-dark.svg')]",
+  },
+  {
+    name: "Planning",
+    lightImg: "bg-[url('/assets/plan.svg')]",
+    darkImg: "dark:bg-[url('/assets/plan-dark.svg')]",
+  },
+  {
+    name: "Development",
+    lightImg: "bg-[url('/assets/dev.svg')]",
+    darkImg: "dark:bg-[url('/assets/dev-dark.svg')]",
+  },
+  {
+    name: "Deployment",
+    lightImg: "bg-[url('/assets/deploy.svg')]",
+    darkImg: "dark:bg-[url('/assets/deploy-dark.svg')]",
+  },
+];
