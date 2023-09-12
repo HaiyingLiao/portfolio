@@ -1,3 +1,5 @@
+import image from "next/image";
+
 export const navLinks = [
   {
     href: "/",
@@ -266,5 +268,20 @@ export const gains = [
     ],
     titleColor: "text-[#02BC7D]",
     icon: "/assets/tick.svg",
+  },
+];
+
+export const caseStudyCard = [
+  {
+    title: "Jobit",
+    content:
+      "Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...",
+    image: "/assets/jobit-card.svg",
+  },
+  {
+    title: "Hipnode",
+    content:
+      "Jobit, a web app made with React and JSearch API, links developers to millions of job openings. It offers easy job search by...",
+    image: "/assets/hipnode-card.svg",
   },
 ];

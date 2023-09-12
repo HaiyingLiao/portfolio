@@ -11,6 +11,7 @@ import Techs from "./Techs";
 import Testimonial from "./Testimonial";
 import Process from "./caseStudy/Process";
 import Gains from "./caseStudy/Gains";
+import RelevantCaseStudies from "./caseStudy/RelevantCaseStudies";
 
 export {
   Info,
@@ -26,4 +27,5 @@ export {
   Testimonial,
   Process,
   Gains,
+  RelevantCaseStudies,
 };
