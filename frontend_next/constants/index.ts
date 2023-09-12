@@ -244,3 +244,27 @@ export const processes = [
     darkImg: "dark:bg-[url('/assets/deploy-dark.svg')]",
   },
 ];
+
+export const gains = [
+  {
+    title: "challenges",
+    contents: [
+      "Gained extensive knowledge of full authentication and authorization implementation, including the use of industry-standard security protocols such as JSON Web Tokens.",
+      "We conducted brainstorming and carefully weighed our options before making a decision. Furthermore, using NextJS was a new experience for us, and we encountered difficulties while implementing its features. Finally, we had to work under time constraints, which added pressure to the project.",
+      "However, we collaborated effectively to overcome these obstacles and ultimately delivered a high-quality product within the given timeline.",
+    ],
+    titleColor: "text-[#E15A46]",
+    icon: "/assets/challenge.svg",
+  },
+  {
+    title: "learnings",
+    contents: [
+      "Gained extensive knowledge of full authentication and authorization implementation, including the use of industry-standard security protocols such as JSON Web Tokens.",
+      "Sharpened my backend skills, specifically in optimizing database queries, improving performance, and handling server-side logic.",
+      "Learned how to properly handle files, including file upload, storage, and retrieval, ensuring that the app's data is organized & easily accessible while keeping it secure.",
+      "Acquired proficiency in NextJS and implemented various features utilizing industry-standard best practices.",
+    ],
+    titleColor: "text-[#02BC7D]",
+    icon: "/assets/tick.svg",
+  },
+];

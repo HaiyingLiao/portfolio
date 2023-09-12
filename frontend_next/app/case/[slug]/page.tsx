@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { TechStack, Info, Process } from "@/components/index";
+import { TechStack, Info, Process, Gains } from "@/components/index";
 
 export default function CaseStudy() {
   return (
@@ -102,6 +102,7 @@ export default function CaseStudy() {
       </section>
 
       <Process />
+      <Gains />
     </>
   );
 }

@@ -158,6 +158,18 @@ body {
   .caseParagraph {
     @apply text-white-500 leading-[155%] s-regular md:p-regular md:leading-[150%] dark:text-white-800;
   }
+
+  .gainsContainer {
+    @apply bg-white-800 dark:bg-black-300 mt-6 rounded-[10px] px-[14px] py-6 md:mt-[30px] md:px-10 md:py-9;
+  }
+
+  .gainsTitle {
+    @apply b-bold md:p-bold uppercase leading-[160%] md:leading-[130%];
+  }
+
+  .gainsContentContainer {
+    @apply mt-5 flex items-start gap-4;
+  }
 }
 
 .swiper-button-next {

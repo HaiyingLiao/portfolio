@@ -10,6 +10,7 @@ import Service from "./Service";
 import Techs from "./Techs";
 import Testimonial from "./Testimonial";
 import Process from "./caseStudy/Process";
+import Gains from "./caseStudy/Gains";
 
 export {
   Info,
@@ -24,4 +25,5 @@ export {
   Techs,
   Testimonial,
   Process,
+  Gains,
 };
