@@ -6,8 +6,8 @@ import "../globals.css";
 import { NavBar, Footer } from "@/components/index";
 
 export const metadata: Metadata = {
-  title: "Haiying Liao's portfolio",
-  description: "Haiying Liao's portfolio",
+  title: "contact",
+  description: "Haiying Liao's contact detail",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
