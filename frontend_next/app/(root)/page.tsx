@@ -19,7 +19,9 @@ export default function Home() {
             Hi, I am Haiying Liao
           </h1>
           <h1 className="text-black-200 heading-3 md:heading-1 mb-3.5 leading-[115%] tracking-[-0.42px] dark:text-white md:mb-2.5 md:leading-[130%] md:tracking-[-0.64px]">
-            Professional Web Developer based in UK
+            Professional{" "}
+            <span className="skinInk textDecorationLarge"> Web Developer</span>{" "}
+            based in UK
           </h1>
           <p className="xs-regular text-white-500 md:b-regular dark:text-white-800 mb-5 leading-[155%] md:mb-9 md:leading-[160%]">
             Transforming the web one line of code at a time: Crafting
@@ -60,7 +62,10 @@ export default function Home() {
 
       {/* Projects section */}
       <section id="mywork" className="bg-2">
-        <h2 className="sectionTitle"> Featured Projects</h2>
+        <h2 className="sectionTitle">
+          {" "}
+          Featured <span className="skinInk textDecoration">Projects</span>{" "}
+        </h2>
         {projects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}

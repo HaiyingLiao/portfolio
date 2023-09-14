@@ -6,7 +6,10 @@ export default function CaseStudies() {
   return (
     <>
       <section className="bg-1 text-center">
-        <h1 className="pageTitle">Recent Case Studies</h1>
+        <h1 className="pageTitle">
+          Recent{" "}
+          <span className="skinInk textDecorationLarge">Case Studies</span>
+        </h1>
         <p className="pageSubTitle mx-auto max-w-[658px]">
           Dive into my recent success stories and discover how I have helpe
           clients overcome challenges, innovate, and achieve their goals

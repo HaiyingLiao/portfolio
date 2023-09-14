@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <section className="bg-1 text-center">
-        <h1 className="pageTitle">Get in Touch</h1>
+        <h1 className="pageTitle skinInk textDecorationLarge">Get in Touch</h1>
         <p className="pageSubTitle mx-auto max-w-[658px]">
           Let&apos;s Collaborate on Your Next Project
         </p>

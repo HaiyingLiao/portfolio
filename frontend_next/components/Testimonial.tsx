@@ -11,11 +11,14 @@ import { testimonials } from "@/constants";
 const Testimonial = () => {
   return (
     <section className="bg-1">
-      <h2 className="sectionTitle"> What they say about me</h2>
+      <h2 className="sectionTitle">
+        {" "}
+        What <span className="skinInk textDecoration">they say</span> about me
+      </h2>
       <Swiper navigation={true} modules={[Navigation]} className="mt-16">
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.name}>
-            <div className="flex flex-col gap-6 p-10 lg:flex-row">
+            <div className="flex flex-col gap-6 p-16 md:px-20 lg:flex-row">
               <Image
                 src={testimonial.photo}
                 alt="arrow"

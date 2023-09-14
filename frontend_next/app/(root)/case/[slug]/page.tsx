@@ -24,7 +24,7 @@ export default function CaseStudy() {
           alt="project image"
           width={0}
           height={0}
-          className="mx-auto w-[45%] md:w-[55%]"
+          className="mx-auto w-[45%] md:w-[55%] "
         />
 
         <div className="flex justify-center">
@@ -44,6 +44,7 @@ export default function CaseStudy() {
               alt="arrow"
               width={20}
               height={20}
+              className="animate-bounce"
             />
           </Link>
         </div>

@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <NavBar />
 
-        <main>
+        <main className="fadeIn">
           {children}
           <CallToAction />
         </main>

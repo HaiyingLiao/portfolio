@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <NavBar />
 
-        <main>{children}</main>
+        <main className="fadeIn">{children}</main>
 
         <Footer />
         <Toaster />

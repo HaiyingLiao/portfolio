@@ -162,22 +162,30 @@ export const services = [
   {
     title: "Back-End Dev",
     desc: " Front-end includes creating the user interface and interactive elements of websites and apps.",
-    icon: "/assets/design.svg",
+    icon: "bg-[url('/assets/design.svg')]",
+    iconLight: "group-hover:bg-[url('/assets/design-light.svg')]",
+    iconDark: "dark:group-hover:bg-[url('/assets/design-darker.svg')]",
   },
   {
     title: "Back-End Dev",
     desc: " Front-end includes creating the user interface and interactive elements of websites and apps.",
-    icon: "/assets/tag.svg",
+    icon: "bg-[url('/assets/service2.svg')]",
+    iconLight: "group-hover:bg-[url('/assets/service2-light.svg')]",
+    iconDark: "dark:group-hover:bg-[url('/assets/service2-dark.svg')]",
   },
   {
     title: "Back-End Dev",
     desc: " Front-end includes creating the user interface and interactive elements of websites and apps.",
-    icon: "/assets/tag.svg",
+    icon: "bg-[url('/assets/service3.svg')]",
+    iconLight: "group-hover:bg-[url('/assets/service3-light.svg')]",
+    iconDark: "dark:group-hover:bg-[url('/assets/service3-dark.svg')]",
   },
   {
     title: "Back-End Dev",
     desc: " Front-end includes creating the user interface and interactive elements of websites and apps.",
-    icon: "/assets/tag.svg",
+    icon: "bg-[url('/assets/service4.svg')]",
+    iconLight: "group-hover:bg-[url('/assets/service4-light.svg')]",
+    iconDark: "dark:group-hover:bg-[url('/assets/service4-dark.svg')]",
   },
 ];
 

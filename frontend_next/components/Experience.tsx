@@ -20,7 +20,7 @@ const Experience = () => {
       </div>
 
       <div>
-        <div className="border-white-800 dark:border-black-300 flex flex-col gap-8 rounded-[10px] border-[1px] p-8 hover:shadow-[-25px_47px_66px_0px_#00000014] md:flex-row">
+        <div className="border-white-800 dark:border-black-300 flex flex-col gap-8 rounded-[10px] border-[1px] p-8 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-9 hover:shadow-[-25px_47px_66px_0px_#00000014] md:flex-row">
           <Image
             src="/assets/slack.svg"
             alt="company image"
