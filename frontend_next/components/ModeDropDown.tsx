@@ -11,7 +11,7 @@ import {
 } from "./ui/dropdown-menu";
 
 export function ModeDropdown() {
-  const [mode, setMode] = useState("light");
+  const [mode, setMode] = useState(localStorage.theme);
 
   useEffect(() => {
     if (
@@ -61,8 +61,10 @@ export function ModeDropdown() {
                 window.matchMedia &&
                 window.matchMedia("(prefers-color-scheme: dark)").matches
               ) {
+                localStorage.theme = "dark";
                 setMode("dark");
               } else {
+                localStorage.theme = "light";
                 setMode("light");
               }
             }}
