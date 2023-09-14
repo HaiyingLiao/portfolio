@@ -331,3 +331,17 @@ export const myInfo = [
     icon: "/assets/message.svg",
   },
 ];
+
+export const caseLinks = [
+  {
+    title: "Demo Site",
+    leftIcon: "/assets/dashicons.svg",
+    rightIcon: "/assets/arrow-case.svg",
+    animation: "animate-bounce",
+  },
+  {
+    title: "Source Code",
+    leftIcon: "/assets/github-case.svg",
+    rightIcon: "/assets/arrow-case.svg",
+  },
+];

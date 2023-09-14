@@ -8,6 +8,7 @@ import {
   Gains,
   RelevantCaseStudies,
 } from "@/components/index";
+import { caseLinks } from "@/constants";
 
 export default function CaseStudy() {
   return (
@@ -27,26 +28,25 @@ export default function CaseStudy() {
           className="mx-auto w-[45%] md:w-[55%] "
         />
 
-        <div className="flex justify-center">
-          <Link
-            href="/"
-            className="s-bold md:p-bold text-accent-primaryLight dark:text-accent-primaryDark mt-16 flex gap-1 leading-[145%] md:leading-[130%]"
-          >
-            <Image
-              src="/assets/dashicons.svg"
-              alt="arrow"
-              width={20}
-              height={20}
-            />
-            Demo Site
-            <Image
-              src="/assets/arrow-case.svg"
-              alt="arrow"
-              width={20}
-              height={20}
-              className="animate-bounce"
-            />
-          </Link>
+        {/* links */}
+        <div className="flex justify-center gap-12 md:gap-20">
+          {caseLinks.map((link) => (
+            <Link
+              key={link.title}
+              href="/"
+              className="s-bold md:p-bold text-accent-primaryLight dark:text-accent-primaryDark mt-16 flex gap-1 leading-[145%] md:leading-[130%]"
+            >
+              <Image src={link.leftIcon} alt="arrow" width={20} height={20} />
+              {link.title}
+              <Image
+                src={link.rightIcon}
+                alt="arrow"
+                width={20}
+                height={20}
+                className={link.animation}
+              />
+            </Link>
+          ))}
         </div>
       </section>
 
