@@ -76,7 +76,7 @@ export default function CaseStudy() {
         </p>
       </section>
 
-      <section className="bg-1">
+      <section className="bg-2">
         <h2 className="caseSubtitle">Problem</h2>
         <h3 className="caseTitle">Problem Statement</h3>
         <p className="caseParagraph my-4">
