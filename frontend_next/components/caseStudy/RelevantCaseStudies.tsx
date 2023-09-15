@@ -19,8 +19,8 @@ const RelevantCaseStudies = () => {
             <Image
               src={item.image}
               alt="project image"
-              width={0}
-              height={0}
+              width={429}
+              height={232}
               className="w-full rounded-t-[20px]"
             />
 

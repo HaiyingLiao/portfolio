@@ -25,8 +25,8 @@ export default function CaseStudies() {
               <Image
                 src={project.imagePath}
                 alt="project image"
-                width={0}
-                height={0}
+                width={436}
+                height={258}
                 className="mx-auto w-[80%] md:w-[85%]"
               />
             </div>

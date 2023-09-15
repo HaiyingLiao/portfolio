@@ -335,13 +335,17 @@ export const myInfo = [
 export const caseLinks = [
   {
     title: "Demo Site",
-    leftIcon: "/assets/dashicons.svg",
-    rightIcon: "/assets/arrow-case.svg",
+    leftIconLight: "bg-[url('/assets/dashicons.svg')]",
+    leftIconDark: "dark:bg-[url('/assets/dashicons-dark.svg')]",
+    rightIcon: "bg-[url('/assets/arrow-case.svg')]",
+    rightIconDark: "dark:bg-[url('/assets/arrow-dark.svg')]",
     animation: "animate-bounce",
   },
   {
     title: "Source Code",
-    leftIcon: "/assets/github-case.svg",
-    rightIcon: "/assets/arrow-case.svg",
+    leftIconLight: "bg-[url('/assets/github-case.svg')]",
+    leftIconDark: "dark:bg-[url('/assets/github-dark.svg')]",
+    rightIcon: "bg-[url('/assets/arrow-case.svg')]",
+    rightIconDark: "dark:bg-[url('/assets/arrow-dark.svg')]",
   },
 ];

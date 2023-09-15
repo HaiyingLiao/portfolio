@@ -39,7 +39,7 @@ export default function Home() {
               haiying.liao@outlook.com
               <Image
                 src="/assets/frame.svg"
-                alt="hero image"
+                alt="copy icon"
                 width={20}
                 height={20}
               />
@@ -50,8 +50,8 @@ export default function Home() {
         <Image
           src="/assets/hero.svg"
           alt="hero image"
-          width={0}
-          height={0}
+          width={400}
+          height={400}
           className="h-auto w-full md:w-[50%]"
         />
       </section>

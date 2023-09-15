@@ -29,8 +29,8 @@ const MyInfo = () => {
               <Image
                 src={info.icon}
                 alt="contact icon"
-                width={0}
-                height={0}
+                width={30}
+                height={30}
                 className="infoIcons"
               />
               <p className="p-bold text-black-400 base-bold leading-[130%] dark:text-white">

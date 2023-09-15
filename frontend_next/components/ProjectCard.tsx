@@ -54,8 +54,8 @@ const ProjectCard: FC<ProjectCardProp> = ({ project }) => {
       <Image
         src={project.imagePath}
         alt="project image"
-        width={0}
-        height={0}
+        width={659}
+        height={330}
         className="h-auto w-full "
       />
     </div>

@@ -22,8 +22,8 @@ const Testimonial = () => {
               <Image
                 src={testimonial.photo}
                 alt="arrow"
-                width={0}
-                height={0}
+                width={328}
+                height={328}
                 className="mx-auto h-[220px] w-[220px] md:h-[328px] md:w-[328px]"
               />
               <div className="flex flex-col justify-center">

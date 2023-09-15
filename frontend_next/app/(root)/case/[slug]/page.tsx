@@ -18,14 +18,17 @@ export default function CaseStudy() {
           Web Dev Project
         </h2>
 
-        <h1 className="pageTitle">Morrent - A Car Rental Website</h1>
+        <h1 className="pageTitle">
+          <span className="skinInk textDecorationLarge">Morrent</span> - A Car
+          Rental Website
+        </h1>
 
         <Image
           src="/assets/morent.svg"
           alt="project image"
-          width={0}
-          height={0}
-          className="mx-auto w-[45%] md:w-[55%] "
+          width={742}
+          height={350}
+          className="mx-auto w-full sm:w-[60%] "
         />
 
         {/* links */}
@@ -34,16 +37,16 @@ export default function CaseStudy() {
             <Link
               key={link.title}
               href="/"
-              className="s-bold md:p-bold text-accent-primaryLight dark:text-accent-primaryDark mt-16 flex gap-1 leading-[145%] md:leading-[130%]"
+              className="s-bold md:p-bold text-accent-primaryLight dark:text-accent-primaryDark mt-16 flex items-center gap-1.5 leading-[145%] md:leading-[130%]"
             >
-              <Image src={link.leftIcon} alt="arrow" width={20} height={20} />
+              <div
+                className={`h-5 w-5 ${link.leftIconLight} ${link.leftIconDark} bg-center bg-no-repeat`}
+              />
+
               {link.title}
-              <Image
-                src={link.rightIcon}
-                alt="arrow"
-                width={20}
-                height={20}
-                className={link.animation}
+
+              <div
+                className={`h-5 w-5 ${link.rightIcon} ${link.rightIconDark} bg-center bg-no-repeat ${link.animation}`}
               />
             </Link>
           ))}
@@ -89,8 +92,8 @@ export default function CaseStudy() {
         <Image
           src="/assets/car.svg"
           alt="car image"
-          width={0}
-          height={0}
+          width={879}
+          height={919}
           className="w-full"
         />
       </section>
@@ -101,9 +104,9 @@ export default function CaseStudy() {
         </h2>
         <Image
           src="/assets/figma-morent.svg"
-          alt="car image"
-          width={0}
-          height={0}
+          alt="figma design image"
+          width={1440}
+          height={767}
           className="w-full"
         />
       </section>
