@@ -1,4 +1,4 @@
-import project from "./peoject-shcemans";
+import project from "./peoject-schemas";
 
 const schemas = [project];
 
