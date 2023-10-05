@@ -1,78 +1,44 @@
 "use Client";
 
-import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
 import { SunIcon, MoonIcon, DesktopIcon } from "@radix-ui/react-icons";
+
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+import { Button } from "@/components/ui/button";
 
 export function ModeDropdown() {
-  const [mode, setMode] = useState(localStorage.theme);
-
-  useEffect(() => {
-    if (
-      mode === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [mode]);
+  const { setTheme } = useTheme();
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        {mode === "dark" ? (
-          <MoonIcon className="modeIcon" />
-        ) : (
-          <SunIcon className="modeIcon" />
-        )}
+        <Button size="icon">
+          <SunIcon className="modeIcon rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+          <MoonIcon className="modeIcon absolute rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+          <span className="sr-only">Toggle theme</span>
+        </Button>
       </DropdownMenuTrigger>
+
       <DropdownMenuContent className="w-50 dark:bg-black-200 mt-7 dark:text-white">
-        <DropdownMenuGroup>
-          <DropdownMenuItem
-            onSelect={() => {
-              setMode("light");
-              localStorage.theme = "light";
-            }}
-          >
-            <SunIcon className="dropDownIcons" />
-            <span>Light</span>
-          </DropdownMenuItem>
-          <DropdownMenuItem
-            onSelect={() => {
-              setMode("dark");
-              localStorage.theme = "dark";
-            }}
-          >
-            <MoonIcon className="dropDownIcons" />
-            <span>Dark</span>
-          </DropdownMenuItem>
-          <DropdownMenuItem
-            onSelect={() => {
-              localStorage.removeItem("theme");
-              if (
-                window.matchMedia &&
-                window.matchMedia("(prefers-color-scheme: dark)").matches
-              ) {
-                localStorage.theme = "dark";
-                setMode("dark");
-              } else {
-                localStorage.theme = "light";
-                setMode("light");
-              }
-            }}
-          >
-            <DesktopIcon className="dropDownIcons" />
-            <span>System</span>
-          </DropdownMenuItem>
-        </DropdownMenuGroup>
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          <SunIcon className="dropDownIcons" />
+          <span>Light</span>
+        </DropdownMenuItem>
+
+        <DropdownMenuItem onClick={() => setTheme("dark")}>
+          <MoonIcon className="dropDownIcons" />
+          <span>Dark</span>
+        </DropdownMenuItem>
+
+        <DropdownMenuItem onClick={() => setTheme("system")}>
+          <DesktopIcon className="dropDownIcons" />
+          <span>System</span>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
