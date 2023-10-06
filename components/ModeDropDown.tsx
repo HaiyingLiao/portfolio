@@ -24,7 +24,7 @@ export function ModeDropdown() {
         </Button>
       </DropdownMenuTrigger>
 
-      <DropdownMenuContent className="w-50 dark:bg-black-200 mt-7 dark:text-white">
+      <DropdownMenuContent className="mt-7 w-48 dark:bg-black-200 dark:text-white">
         <DropdownMenuItem onClick={() => setTheme("light")}>
           <SunIcon className="dropDownIcons" />
           <span>Light</span>

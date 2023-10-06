@@ -14,7 +14,7 @@ export default function CaseStudy() {
   return (
     <>
       <section className="bg-1 space-y-6 text-center">
-        <h2 className="uppcase text-accent-primaryLight md:p-bold dark:text-accent-primaryDark s-bold leading-[130%] tracking-[4.2px] md:tracking-[6px]">
+        <h2 className="md:p-bold s-bold uppercase leading-[130%] tracking-[4.2px] text-accent-primaryLight dark:text-accent-primaryDark md:tracking-[6px]">
           Web Dev Project
         </h2>
 
@@ -37,7 +37,7 @@ export default function CaseStudy() {
             <Link
               key={link.title}
               href="/"
-              className="s-bold md:p-bold text-accent-primaryLight dark:text-accent-primaryDark mt-16 flex items-center gap-1.5 leading-[145%] md:leading-[130%]"
+              className="s-bold md:p-bold mt-16 flex items-center gap-1.5 leading-[145%] text-accent-primaryLight dark:text-accent-primaryDark md:leading-[130%]"
             >
               <div
                 className={`h-5 w-5 ${link.leftIconLight} ${link.leftIconDark} bg-center bg-no-repeat`}
@@ -73,9 +73,9 @@ export default function CaseStudy() {
         <p>
           Car owners are also able to list their cars for rent through our Add
           Car page, while users can easily track their rented and rented-out
-          cars through their profile page. Overall, we've created an intuitive
-          and user-friendly MVP version of the platform that will make renting a
-          car a breeze.
+          cars through their profile page. Overall, we&apos;ve created an
+          intuitive and user-friendly MVP version of the platform that will make
+          renting a car a breeze.
         </p>
       </section>
 
@@ -99,7 +99,7 @@ export default function CaseStudy() {
       </section>
 
       <section>
-        <h2 className="s-bold md:heading-7 bg-accent-primaryLight dark:bg-accent-primaryDark py-2 text-center uppercase leading-[145%] tracking-[-0.16px] text-white md:py-9 md:leading-[105%]">
+        <h2 className="s-bold md:heading-7 bg-accent-primaryLight py-2 text-center uppercase leading-[145%] tracking-[-0.16px] text-white dark:bg-accent-primaryDark md:py-9 md:leading-[105%]">
           High-Fidelity Figma Design
         </h2>
         <Image
