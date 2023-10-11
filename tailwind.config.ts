@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-import { Config } from "tailwind-merge";
-
-const config: Config = {
+const config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
