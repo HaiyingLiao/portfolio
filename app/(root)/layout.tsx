@@ -5,6 +5,7 @@ import { Poppins } from "next/font/google";
 
 import "../globals.css";
 import { NavBar, Footer, CallToAction } from "@/components/index";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -20,15 +21,22 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={poppins.className}>
-        <NavBar />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NavBar />
 
-        <main className="fadeIn">
-          {children}
-          <CallToAction />
-        </main>
+          <main className="fadeIn">
+            {children}
+            <CallToAction />
+          </main>
 
-        <Footer />
-        <Toaster />
+          <Footer />
+          <Toaster />
+        </ThemeProvider>
       </body>
     </html>
   );
