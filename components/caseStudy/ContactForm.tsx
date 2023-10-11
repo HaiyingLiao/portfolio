@@ -69,14 +69,14 @@ export default function ContactForm() {
             name={formField.label as keyof z.infer<typeof formSchema>}
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="text-black-300 b-regular md:p-regular leading-[160%] dark:text-white md:leading-[150%]">
+                <FormLabel className="b-regular md:p-regular leading-[160%] text-black-300 dark:text-white md:leading-[150%]">
                   {formField.title}
                   <span className="text-[#778295]"> {formField?.subTitle}</span>
                 </FormLabel>
-                <FormControl className="!bg-white-800 focus:!ring-accent-primaryLight dark:!bg-black-300 dark:focus:!ring-accent-primaryDark  md:p-regular b-regular rounded-[20px] border border-[#CCE1FF] focus:!ring-1 dark:text-white md:min-h-[70px]">
+                <FormControl className="md:p-regular b-regular rounded-[20px] border  border-[#CCE1FF] !bg-white-800 focus:!ring-1 focus:!ring-accent-primaryLight dark:!bg-black-300 dark:text-white dark:focus:!ring-accent-primaryDark md:min-h-[70px]">
                   {formField.label === "message" ? (
                     <Textarea
-                      className="!bg-white-800 focus:!ring-accent-primaryLight dark:!bg-black-300 dark:focus:!ring-accent-primaryDark resize-none focus:!ring-1 md:min-h-[150px]"
+                      className="resize-none !bg-white-800 focus:!ring-1 focus:!ring-accent-primaryLight dark:!bg-black-300 dark:focus:!ring-accent-primaryDark md:min-h-[150px]"
                       {...field}
                     />
                   ) : (

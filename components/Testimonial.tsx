@@ -27,14 +27,14 @@ const Testimonial = () => {
                 className="mx-auto h-[220px] w-[220px] md:h-[328px] md:w-[328px]"
               />
               <div className="flex flex-col justify-center">
-                <p className="text-white-500 dark:text-white-800 b-regular md:base-regular mb-8 leading-[160%] md:leading-[130%]">
+                <p className="b-regular md:base-regular mb-8 leading-[160%] text-white-500 dark:text-white-800 md:leading-[130%]">
                   {testimonial.comment}
                 </p>
 
-                <h2 className="b-bold text-black-300 leading-[160%] dark:text-white">
+                <h2 className="b-bold leading-[160%] text-black-300 dark:text-white">
                   — {testimonial.name}
                 </h2>
-                <h3 className="b-regular text-white-500 dark:text-white-800 leading-[160%]">
+                <h3 className="b-regular leading-[160%] text-white-500 dark:text-white-800">
                   {testimonial.jobTitle}
                 </h3>
               </div>

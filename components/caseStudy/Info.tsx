@@ -5,10 +5,10 @@ const Info = () => {
     <section className="bg-2 flex flex-col justify-between gap-9 py-10 md:flex-row md:py-[53px]">
       {caseInfo.map((info) => (
         <div key={info.title} className="space-y-2">
-          <h3 className="s-bold text-black-400 md:b-bold dark:text-white-500 leading-[145%] md:leading-[160%]">
+          <h3 className="s-bold md:b-bold leading-[145%] text-black-400 dark:text-white-500 md:leading-[160%]">
             {info.title}
           </h3>
-          <p className="text-black-200 p-bold md:base-bold leading-[130%] dark:text-white">
+          <p className="p-bold md:base-bold leading-[130%] text-black-200 dark:text-white">
             {info.content}
           </p>
         </div>
