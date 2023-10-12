@@ -33,7 +33,7 @@ const MyInfo = () => {
                 height={30}
                 className="infoIcons"
               />
-              <p className="p-bold text-black-400 base-bold leading-[130%] dark:text-white">
+              <p className="p-bold base-bold leading-[130%] text-black-400 dark:text-white">
                 {info.content}
               </p>
             </div>

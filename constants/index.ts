@@ -319,6 +319,7 @@ export const myInfo = [
       { name: "github", icon: "/assets/github-social.svg" },
       { name: "linkedin", icon: "/assets/linkedin.svg" },
     ],
+    icon: "",
   },
   {
     label: "Phone Number",

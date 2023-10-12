@@ -10,12 +10,12 @@ import {
 } from "@/components/index";
 import { caseLinks } from "@/constants";
 
-export default function CaseStudy() {
+export default function CaseStudy({ params }: { params: { slug: string } }) {
   return (
     <>
       <section className="bg-1 space-y-6 text-center">
         <h2 className="md:p-bold s-bold uppercase leading-[130%] tracking-[4.2px] text-accent-primaryLight dark:text-accent-primaryDark md:tracking-[6px]">
-          Web Dev Project
+          Web Dev Project : {params.slug}
         </h2>
 
         <h1 className="pageTitle">
