@@ -14,8 +14,16 @@ export const navLinks = [
 ];
 
 export const socialIcons = [
-	{ name: 'github', icon: '/assets/github-social.svg' },
-	{ name: 'linkedin', icon: '/assets/linkedin.svg' },
+	{
+		name: 'github',
+		icon: '/assets/github-social.svg',
+		path: 'https://github.com/Hannah-Liao',
+	},
+	{
+		name: 'linkedin',
+		icon: '/assets/linkedin.svg',
+		path: 'https://www.linkedin.com/in/haiying-liao',
+	},
 ];
 
 export const techs = [
@@ -322,8 +330,16 @@ export const myInfo = [
 	{
 		label: 'My Socials',
 		icons: [
-			{ name: 'github', icon: '/assets/github-social.svg' },
-			{ name: 'linkedin', icon: '/assets/linkedin.svg' },
+			{
+				name: 'github',
+				icon: '/assets/github-social.svg',
+				path: 'https://github.com/Hannah-Liao',
+			},
+			{
+				name: 'linkedin',
+				icon: '/assets/linkedin.svg',
+				path: 'https://www.linkedin.com/in/haiying-liao',
+			},
 		],
 		icon: '',
 	},
