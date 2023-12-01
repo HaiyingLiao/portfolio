@@ -11,7 +11,6 @@ import Testimonial from './Testimonial';
 import Process from './caseStudy/Process';
 import Gains from './caseStudy/Gains';
 import RelevantCaseStudies from './caseStudy/RelevantCaseStudies';
-import MyInfo from './caseStudy/MyInfo';
 import EmailCopy from './EmailCopy';
 
 export {
@@ -28,6 +27,5 @@ export {
 	Process,
 	Gains,
 	RelevantCaseStudies,
-	MyInfo,
 	EmailCopy,
 };
