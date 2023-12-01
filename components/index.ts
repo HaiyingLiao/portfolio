@@ -7,7 +7,6 @@ import Footer from './Footer';
 import NavBar from './NavBar';
 import ProjectCard from './ProjectCard';
 import Service from './Service';
-import Techs from './Techs';
 import Testimonial from './Testimonial';
 import Process from './caseStudy/Process';
 import Gains from './caseStudy/Gains';
@@ -25,7 +24,6 @@ export {
 	NavBar,
 	ProjectCard,
 	Service,
-	Techs,
 	Testimonial,
 	Process,
 	Gains,
