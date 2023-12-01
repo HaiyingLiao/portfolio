@@ -71,12 +71,13 @@ export default function Home() {
 			{/* Projects section */}
 			<section id='mywork' className='bg-2'>
 				<h2 className='sectionTitle'>
-					{' '}
 					Featured <span className='skinInk textDecoration'>Projects</span>{' '}
 				</h2>
+
 				{projects.map((project) => (
 					<ProjectCard key={project.title} project={project} />
 				))}
+
 				<Link
 					href='/case-studies'
 					className='primaryBtn b-regular md:b-bold mx-auto mt-10 max-w-[323px] gap-3 md:mt-12'

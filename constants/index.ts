@@ -120,17 +120,21 @@ export const techs = [
 export const projects = [
 	{
 		title: 'Morrent - A Car Rental Application',
-		techs: ['ReactJS, Next.js', 'Nodejs, MongoDB'],
+		techs: ['Reactjs', 'Nodejs', ' MongoDB'],
 		imagePath: '/assets/morent.svg',
 		bgColor: 'bg-[#416CEA]',
 		imageLocation: 'right',
+		siteLink: 'https://cohort5-code-fam-car-rent.vercel.app/',
+		githubLink: 'https://github.com/Hannah-Liao/Morrent',
 	},
 	{
 		title: 'JobIT - A Job Finding Application',
 		techs: ['ReactJS, Next.js', 'Nodejs, MongoDB'],
-		imagePath: '/assets/jobit.svg',
+		imagePath: '/assets/jobIt.svg',
 		bgColor: 'bg-[#0BAB7C]',
 		imageLocation: 'left',
+		siteLink: 'https://cohort5-code-fam-job-it.vercel.app/',
+		githubLink: 'https://github.com/Hannah-Liao/JobIT',
 	},
 	{
 		title: 'Hipnode - A Social Media Application',
@@ -138,6 +142,8 @@ export const projects = [
 		imagePath: '/assets/hipnode.svg',
 		bgColor: 'bg-[#FF6934]',
 		imageLocation: 'right',
+		siteLink: '',
+		githubLink: '',
 	},
 ];
 
@@ -160,29 +166,29 @@ export const testimonials = [
 
 export const services = [
 	{
-		title: 'Back-End Dev',
-		desc: ' Front-end includes creating the user interface and interactive elements of websites and apps.',
+		title: 'Analytics & SEO',
+		desc: 'Implement tracking & analytics tools to monitor website performance & improve SEO.',
 		icon: "bg-[url('/assets/design.svg')]",
 		iconLight: "group-hover:bg-[url('/assets/design-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/design-darker.svg')]",
 	},
 	{
-		title: 'Back-End Dev',
-		desc: ' Front-end includes creating the user interface and interactive elements of websites and apps.',
+		title: 'Front-End Dev',
+		desc: 'Front-end dev includes creating the user interface and interactive elements of websites and apps.',
 		icon: "bg-[url('/assets/service2.svg')]",
 		iconLight: "group-hover:bg-[url('/assets/service2-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/service2-dark.svg')]",
 	},
 	{
 		title: 'Back-End Dev',
-		desc: ' Front-end includes creating the user interface and interactive elements of websites and apps.',
+		desc: 'Focus on server-side, ensuring seamless data management and communication between the user interface and the server.',
 		icon: "bg-[url('/assets/service3.svg')]",
 		iconLight: "group-hover:bg-[url('/assets/service3-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/service3-dark.svg')]",
 	},
 	{
-		title: 'Back-End Dev',
-		desc: ' Front-end includes creating the user interface and interactive elements of websites and apps.',
+		title: 'Web Optimization',
+		desc: 'Web optimization focuses on improving website performance for a smoother user experience',
 		icon: "bg-[url('/assets/service4.svg')]",
 		iconLight: "group-hover:bg-[url('/assets/service4-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/service4-dark.svg')]",
