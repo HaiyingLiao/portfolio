@@ -128,7 +128,7 @@ export const techs = [
 export const projects = [
 	{
 		title: 'Morrent - A Car Rental Application',
-		techs: ['Reactjs', 'Nodejs', ' MongoDB'],
+		techs: ['Reactjs', 'TypeScript', 'Nodejs', ' MongoDB'],
 		imagePath: '/assets/morent.svg',
 		bgColor: 'bg-[#416CEA]',
 		imageLocation: 'right',
@@ -137,7 +137,7 @@ export const projects = [
 	},
 	{
 		title: 'JobIT - A Job Finding Application',
-		techs: ['ReactJS, Next.js', 'Nodejs, MongoDB'],
+		techs: ['ReactJS'],
 		imagePath: '/assets/jobIt.svg',
 		bgColor: 'bg-[#0BAB7C]',
 		imageLocation: 'left',
@@ -146,7 +146,7 @@ export const projects = [
 	},
 	{
 		title: 'Hipnode - A Social Media Application',
-		techs: ['ReactJS, Next.js', 'Nodejs, MongoDB'],
+		techs: ['In Progress'],
 		imagePath: '/assets/hipnode.svg',
 		bgColor: 'bg-[#FF6934]',
 		imageLocation: 'right',
