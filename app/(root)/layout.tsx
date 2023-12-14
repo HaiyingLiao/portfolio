@@ -20,7 +20,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
 	return (
 		<html lang='en'>
-			<body className={`${poppins.className} bg-white-800 dark:bg-black-300`}>
+			<body
+				className={`${poppins.className} mx-auto max-w-[1440px] bg-white-800 dark:bg-black-300`}
+			>
 				<ThemeProvider
 					attribute='class'
 					defaultTheme='system'
