@@ -57,7 +57,7 @@ export default function Home() {
 							className='b-regular flex flex-col items-center justify-center gap-1 text-black-400 dark:text-white-800'
 						>
 							<div
-								className={`flex h-[52px] w-[52px] items-center justify-center rounded-full bg-white-800 bg-[length:25px_25px] bg-center bg-no-repeat p-5 shadow-[10px_10px_26px_0px_#00000014]  hover:bg-white dark:bg-black-300 md:h-[100px] md:w-[100px] md:bg-[length:50px_50px] ${tech.colorImg} hover:bg-[length:30px_30px] md:hover:bg-[length:62px_62px] ${tech.garyImg} transition-all delay-100 duration-100 ease-linear dark:shadow-[8px_0px_26px_0px_#1F2E48]`}
+								className={`flex h-[52px] w-[52px] items-center justify-center rounded-full bg-white-800 bg-[length:25px_25px] bg-center bg-no-repeat p-5 hover:bg-white  hover:shadow-[10px_10px_26px_0px_#00000014] dark:bg-black-300 md:h-[100px] md:w-[100px] md:bg-[length:50px_50px] ${tech.colorImg} hover:bg-[length:30px_30px] md:hover:bg-[length:62px_62px] ${tech.garyImg} transition-all delay-100 duration-100 ease-linear hover:dark:shadow-[8px_0px_26px_0px_#1F2E48]`}
 							/>
 							<p>{tech.name}</p>
 						</div>

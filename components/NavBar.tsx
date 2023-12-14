@@ -11,7 +11,7 @@ const NavBar = () => {
 	const pathname = usePathname();
 
 	return (
-		<nav className='top-0 z-50 flex justify-between bg-white-800/90 px-6 py-5 dark:bg-black-300/95 md:sticky md:px-[85px] md:backdrop-blur-sm'>
+		<nav className='top-0 z-50 flex justify-between bg-white-800/50 px-6 py-5 dark:bg-black-300/50 md:sticky md:px-[85px] md:backdrop-blur-sm'>
 			<Link href='/'>
 				<Image src='/logo.png' alt='logo' width={45} height={45} />
 			</Link>

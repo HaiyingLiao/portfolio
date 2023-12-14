@@ -1,9 +1,25 @@
+'use client';
+
 import Image from 'next/image';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Experience = () => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1200,
+		});
+	}, []);
+
 	return (
 		<section className='bg-2 flex flex-col  gap-7 xl:flex-row'>
-			<div className='max-w-full rounded-2xl bg-black-200 px-[38px] pb-[38px] pt-[58px] dark:bg-white-800 lg:max-w-[670px] lg:pb-[105px] lg:pl-[105px] lg:pr-[143px] lg:pt-[152px]'>
+			<div
+				data-aos='fade-right'
+				data-aos-offset='300'
+				data-aos-easing='ease-in-sine'
+				className='max-w-full rounded-2xl bg-black-200 px-[38px] pb-[38px] pt-[58px] dark:bg-white-800 lg:max-w-[670px] lg:pb-[105px] lg:pl-[105px] lg:pr-[143px] lg:pt-[152px]'
+			>
 				<h2 className='heading-4 lg:heading-2 mb-9 leading-[115%] tracking-[-0.48px] text-white dark:text-black-200'>
 					Work <span className='skinInk textDecoration'>Experience</span>
 				</h2>
@@ -19,7 +35,12 @@ const Experience = () => {
 				</div>
 			</div>
 
-			<div className='flex-1'>
+			<div
+				className='flex-1'
+				data-aos='fade-left'
+				data-aos-offset='300'
+				data-aos-easing='ease-in-sine'
+			>
 				<div className='flex w-full flex-col gap-8 rounded-[10px] border-[1px] border-white-800 bg-white p-8 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-9 hover:shadow-[-25px_47px_66px_0px_#00000014] dark:border-black-200 dark:bg-black-200 dark:hover:bg-black-300 md:flex-row'>
 					<Image
 						src='/assets/slack.svg'
