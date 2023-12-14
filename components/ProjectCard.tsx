@@ -1,6 +1,10 @@
-import { type FC } from 'react';
+'use client';
+
+import { type FC, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 interface ProjectCardProp {
 	project: {
@@ -15,6 +19,12 @@ interface ProjectCardProp {
 }
 
 const ProjectCard: FC<ProjectCardProp> = ({ project }) => {
+	useEffect(() => {
+		AOS.init({
+			duration: 1200,
+		});
+	}, []);
+
 	return (
 		<div
 			className={`mt-12 flex w-full flex-col overflow-hidden rounded-[20px] ${
@@ -26,6 +36,7 @@ const ProjectCard: FC<ProjectCardProp> = ({ project }) => {
 			}`}
 		>
 			<div
+				data-aos='fade-right'
 				className={
 					project.imageLocation === 'right'
 						? 'md:min-w-[50%]'
@@ -100,6 +111,7 @@ const ProjectCard: FC<ProjectCardProp> = ({ project }) => {
 			</div>
 
 			<Image
+				data-aos='fade-left'
 				src={project.imagePath}
 				alt='project image'
 				width={659}
