@@ -28,6 +28,18 @@ export const socialIcons = [
 
 export const techs = [
 	{
+		name: 'React',
+		garyImg: "bg-[url('/assets/react-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/react.svg')]",
+		techSImg: "bg-[url('/assets/react.svg')]",
+	},
+	{
+		name: 'NextJS',
+		garyImg: "bg-[url('/assets/next-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/next.svg')]",
+		techSImg: "bg-[url('/assets/next.svg')]",
+	},
+	{
 		name: 'TypeScript',
 		garyImg: "bg-[url('/assets/ts-gray.svg')]",
 		colorImg: "hover:bg-[url('/assets/ts.svg')]",
@@ -39,60 +51,14 @@ export const techs = [
 		colorImg: "hover:bg-[url('/assets/js.svg')]",
 		techSImg: "bg-[url('/assets/js.svg')]",
 	},
-	{
-		name: 'React',
-		garyImg: "bg-[url('/assets/react-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/react.svg')]",
-		techSImg: "bg-[url('/assets/react.svg')]",
-	},
+
 	{
 		name: 'Redux',
 		garyImg: "bg-[url('/assets/redux-gray.svg')]",
 		colorImg: "hover:bg-[url('/assets/redux.svg')]",
 		techSImg: "bg-[url('/assets/redux.svg')]",
 	},
-	{
-		name: 'NextJS',
-		garyImg: "bg-[url('/assets/next-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/next.svg')]",
-		techSImg: "bg-[url('/assets/next.svg')]",
-	},
-	{
-		name: 'HTML',
-		garyImg: "bg-[url('/assets/html-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/html.svg')]",
-		techSImg: "bg-[url('/assets/html.svg')]",
-	},
-	{
-		name: 'CSS',
-		garyImg: "bg-[url('/assets/css-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/css.svg')]",
-		techSImg: "bg-[url('/assets/css.svg')]",
-	},
-	{
-		name: 'SASS',
-		garyImg: "bg-[url('/assets/sass-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/sass.svg')]",
-		techSImg: "bg-[url('/assets/sass.svg')]",
-	},
-	{
-		name: 'MUI',
-		garyImg: "bg-[url('/assets/mui-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/mui.svg')]",
-		techSImg: "bg-[url('/assets/mui.svg')]",
-	},
-	{
-		name: 'Tailwind CSS',
-		garyImg: "bg-[url('/assets/tailwind-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/tailwind.svg')]",
-		techSImg: "bg-[url('/assets/tailwind.svg')]",
-	},
-	{
-		name: 'Motion',
-		garyImg: "bg-[url('/assets/motion-gray.svg')]",
-		colorImg: "hover:bg-[url('/assets/motion.svg')]",
-		techSImg: "bg-[url('/assets/motion.svg')]",
-	},
+
 	{
 		name: 'Git',
 		garyImg: "bg-[url('/assets/git-gray.svg')]",
@@ -122,6 +88,43 @@ export const techs = [
 		garyImg: "bg-[url('/assets/mongodb-gray.svg')]",
 		colorImg: "hover:bg-[url('/assets/mongodb.svg')]",
 		techSImg: "bg-[url('/assets/mongodb.svg')]",
+	},
+	{
+		name: 'HTML',
+		garyImg: "bg-[url('/assets/html-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/html.svg')]",
+		techSImg: "bg-[url('/assets/html.svg')]",
+	},
+	{
+		name: 'CSS',
+		garyImg: "bg-[url('/assets/css-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/css.svg')]",
+		techSImg: "bg-[url('/assets/css.svg')]",
+	},
+	{
+		name: 'SASS',
+		garyImg: "bg-[url('/assets/sass-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/sass.svg')]",
+		techSImg: "bg-[url('/assets/sass.svg')]",
+	},
+	{
+		name: 'Tailwind CSS',
+		garyImg: "bg-[url('/assets/tailwind-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/tailwind.svg')]",
+		techSImg: "bg-[url('/assets/tailwind.svg')]",
+	},
+	{
+		name: 'MUI',
+		garyImg: "bg-[url('/assets/mui-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/mui.svg')]",
+		techSImg: "bg-[url('/assets/mui.svg')]",
+	},
+
+	{
+		name: 'Motion',
+		garyImg: "bg-[url('/assets/motion-gray.svg')]",
+		colorImg: "hover:bg-[url('/assets/motion.svg')]",
+		techSImg: "bg-[url('/assets/motion.svg')]",
 	},
 ];
 
@@ -370,5 +373,20 @@ export const caseLinks = [
 		leftIconDark: "dark:bg-[url('/assets/github-dark.svg')]",
 		rightIcon: "bg-[url('/assets/arrow-case.svg')]",
 		rightIconDark: "dark:bg-[url('/assets/arrow-dark.svg')]",
+	},
+];
+
+export const workExperience = [
+	{
+		name: 'JS Mastery',
+		role: 'Freelance dev',
+		time: 'Jun 2023 - Present',
+		logo: '/assets/jsm.png',
+	},
+	{
+		name: 'University of the West England',
+		role: 'Student Representative',
+		time: 'Jan 2021 – Jan 2022',
+		logo: '/assets/uwe.jpeg',
 	},
 ];

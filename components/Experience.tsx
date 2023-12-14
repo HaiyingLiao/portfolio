@@ -5,6 +5,8 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { workExperience } from '@/constants';
+
 const Experience = () => {
 	useEffect(() => {
 		AOS.init({
@@ -18,7 +20,7 @@ const Experience = () => {
 				data-aos='fade-right'
 				data-aos-offset='300'
 				data-aos-easing='ease-in-sine'
-				className='max-w-full rounded-2xl bg-black-200 px-[38px] pb-[38px] pt-[58px] dark:bg-white-800 lg:max-w-[670px] lg:pb-[105px] lg:pl-[105px] lg:pr-[143px] lg:pt-[152px]'
+				className='max-w-full rounded-2xl bg-black-200 px-[38px] pb-[38px] pt-[58px] dark:bg-white-800 lg:pb-[105px] lg:pl-[105px] lg:pr-[143px] lg:pt-[152px]'
 			>
 				<h2 className='heading-4 lg:heading-2 mb-9 leading-[115%] tracking-[-0.48px] text-white dark:text-black-200'>
 					Work <span className='skinInk textDecoration'>Experience</span>
@@ -36,28 +38,33 @@ const Experience = () => {
 			</div>
 
 			<div
-				className='flex-1'
+				className='flex flex-col gap-5'
 				data-aos='fade-left'
 				data-aos-offset='300'
 				data-aos-easing='ease-in-sine'
 			>
-				<div className='flex w-full flex-col gap-8 rounded-[10px] border-[1px] border-white-800 bg-white p-8 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-9 hover:shadow-[-25px_47px_66px_0px_#00000014] dark:border-black-200 dark:bg-black-200 dark:hover:bg-black-300 md:flex-row'>
-					<Image
-						src='/assets/slack.svg'
-						alt='company image'
-						width={48}
-						height={48}
-						className='h-12 w-12 dark:brightness-0 dark:invert-[100%] md:h-[58px] md:w-[58px]'
-					/>
-					<div>
-						<h2 className='base-bold leading-[130%] text-black-200 dark:text-white'>
-							Slack
-						</h2>
-						<p className='s-regular leading-[155%] text-white-500 dark:text-white-800'>
-							Product Design - 4 Years Experince
-						</p>
+				{workExperience.map((experience) => (
+					<div key={experience.name}>
+						<div className='flex w-full flex-col gap-8 rounded-[10px] border-[1px] border-white-800 bg-white p-8 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-2 hover:shadow-[-25px_47px_66px_0px_#00000014] dark:border-black-200 dark:bg-black-200 dark:hover:bg-black-300 md:flex-row'>
+							<Image
+								src={experience.logo}
+								alt='company logo'
+								width={48}
+								height={48}
+								className='h-12 w-12 dark:brightness-0 dark:invert-[100%] md:h-[58px] md:w-[58px]'
+							/>
+							<div>
+								<h2 className='base-bold leading-[130%] text-black-200 dark:text-white'>
+									{experience.name}
+								</h2>
+								<p className='s-regular flex gap-6 leading-[155%] text-white-500 dark:text-white-800'>
+									<span>{experience.role}</span>
+									<span>{experience.time}</span>
+								</p>
+							</div>
+						</div>
 					</div>
-				</div>
+				))}
 			</div>
 		</section>
 	);

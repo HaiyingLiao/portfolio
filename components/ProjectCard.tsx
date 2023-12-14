@@ -47,7 +47,7 @@ const ProjectCard: FC<ProjectCardProp> = ({ project }) => {
 					{project.title}
 				</h1>
 
-				<div className='s-regular mb-12 flex gap-3 leading-[155%] text-white'>
+				<div className='s-regular mb-6 flex  gap-3 leading-[155%] text-white md:mb-12'>
 					{project.techs.map((tech) => (
 						<div key={tech} className='techContainer'>
 							{tech}
@@ -55,7 +55,7 @@ const ProjectCard: FC<ProjectCardProp> = ({ project }) => {
 					))}
 				</div>
 
-				<div className='flex gap-12 md:gap-20'>
+				<div className='mb-6 flex gap-12 md:gap-20'>
 					<Link
 						href={project.siteLink}
 						target='_blank'

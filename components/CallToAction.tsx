@@ -21,7 +21,7 @@ const CallToAction = () => {
 			>
 				<div className='w-full max-w-xl'>
 					<h2 className='p-5 text-3xl font-bold text-black-200 sm:text-center md:text-left md:text-[32px] lg:text-5xl'>
-						Have a project in mind that requires technical expertise?
+						Interested in my skills and experience? Let&apos;s connect.
 					</h2>
 				</div>
 
