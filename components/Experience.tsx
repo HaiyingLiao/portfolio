@@ -15,7 +15,7 @@ const Experience = () => {
 	}, []);
 
 	return (
-		<section className='bg-2 flex flex-col  gap-7 xl:flex-row'>
+		<section className='bg-2 flex flex-col gap-7 xl:flex-row'>
 			<div
 				data-aos='fade-right'
 				data-aos-offset='300'
@@ -37,31 +37,30 @@ const Experience = () => {
 				</div>
 			</div>
 
-			<div
-				className='flex flex-col gap-5'
-				data-aos='fade-left'
-				data-aos-offset='300'
-				data-aos-easing='ease-in-sine'
-			>
+			<div className='flex flex-col gap-5'>
 				{workExperience.map((experience) => (
-					<div key={experience.name}>
-						<div className='flex w-full flex-col gap-8 rounded-[10px] border-[1px] border-white-800 bg-white p-8 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-2 hover:shadow-[-25px_47px_66px_0px_#00000014] dark:border-black-200 dark:bg-black-200 dark:hover:bg-black-300 md:flex-row'>
-							<Image
-								src={experience.logo}
-								alt='company logo'
-								width={48}
-								height={48}
-								className='h-12 w-12 dark:brightness-0 dark:invert-[100%] md:h-[58px] md:w-[58px]'
-							/>
-							<div>
-								<h2 className='base-bold leading-[130%] text-black-200 dark:text-white'>
-									{experience.name}
-								</h2>
-								<p className='s-regular flex gap-6 leading-[155%] text-white-500 dark:text-white-800'>
-									<span>{experience.role}</span>
-									<span>{experience.time}</span>
-								</p>
-							</div>
+					<div
+						className='flex w-full flex-col gap-8 rounded-[10px] border-[1px] border-white-800 bg-white p-8 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-2 hover:shadow-[-25px_47px_66px_0px_#00000014] dark:border-black-200 dark:bg-black-200 dark:hover:bg-black-300 md:flex-row'
+						key={experience.name}
+						data-aos='fade-right'
+						data-aos-offset='400'
+						data-aos-easing='ease-in-sine'
+					>
+						<Image
+							src={experience.logo}
+							alt='company logo'
+							width={48}
+							height={48}
+							className='h-12 w-12 md:h-[58px] md:w-[58px]'
+						/>
+						<div>
+							<h2 className='base-bold leading-[130%] text-black-200 dark:text-white'>
+								{experience.name}
+							</h2>
+							<p className='s-regular flex gap-6 leading-[155%] text-white-500 dark:text-white-800'>
+								<span>{experience.role}</span>
+								<span>{experience.time}</span>
+							</p>
 						</div>
 					</div>
 				))}
