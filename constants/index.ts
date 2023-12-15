@@ -131,7 +131,7 @@ export const techs = [
 export const projects = [
 	{
 		title: 'Morrent - A Car Rental Application',
-		techs: ['Reactjs', 'TypeScript', 'Nodejs', ' MongoDB'],
+		techs: ['ReactJS', 'TypeScript', 'Nodejs', ' MongoDB'],
 		imagePath: '/assets/morent.svg',
 		bgColor: 'bg-[#416CEA]',
 		imageLocation: 'right',
@@ -140,7 +140,7 @@ export const projects = [
 	},
 	{
 		title: 'JobIT - A Job Finding Application',
-		techs: ['ReactJS'],
+		techs: ['ReactJS', 'Redux', 'MUI'],
 		imagePath: '/assets/jobIt.svg',
 		bgColor: 'bg-[#0BAB7C]',
 		imageLocation: 'left',
@@ -177,29 +177,29 @@ export const testimonials = [
 
 export const services = [
 	{
-		title: 'Analytics & SEO',
-		desc: 'Implement tracking & analytics tools to monitor website performance & improve SEO.',
-		icon: "bg-[url('/assets/design.svg')]",
-		iconLight: "group-hover:bg-[url('/assets/design-light.svg')]",
-		iconDark: "dark:group-hover:bg-[url('/assets/design-darker.svg')]",
-	},
-	{
 		title: 'Front-End Dev',
-		desc: 'Front-end dev includes creating the user interface and interactive elements of websites and apps.',
+		desc: 'Craft seamless user experiences by implementing the user interface and interactive components of websites and applications.',
 		icon: "bg-[url('/assets/service2.svg')]",
 		iconLight: "group-hover:bg-[url('/assets/service2-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/service2-dark.svg')]",
 	},
 	{
 		title: 'Back-End Dev',
-		desc: 'Focus on server-side, ensuring seamless data management and communication between the user interface and the server.',
+		desc: 'Specializing in server-side development to ensure efficient data management and seamless communication between the user interface and server components.',
 		icon: "bg-[url('/assets/service3.svg')]",
 		iconLight: "group-hover:bg-[url('/assets/service3-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/service3-dark.svg')]",
 	},
 	{
+		title: 'Analytics & SEO',
+		desc: 'Utilise advanced tracking and analytics tools to meticulously monitor website performance, enhancing SEO strategies for optimal visibility.',
+		icon: "bg-[url('/assets/design.svg')]",
+		iconLight: "group-hover:bg-[url('/assets/design-light.svg')]",
+		iconDark: "dark:group-hover:bg-[url('/assets/design-darker.svg')]",
+	},
+	{
 		title: 'Web Optimization',
-		desc: 'Web optimization focuses on improving website performance for a smoother user experience',
+		desc: 'Dedicate efforts to optimizing websites, enhancing performance, and delivering a frictionless user experience.',
 		icon: "bg-[url('/assets/service4.svg')]",
 		iconLight: "group-hover:bg-[url('/assets/service4-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/service4-dark.svg')]",
