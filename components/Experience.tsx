@@ -40,7 +40,7 @@ const Experience = () => {
 			<div className='flex flex-col gap-5'>
 				{workExperience.map((experience) => (
 					<div
-						className='flex w-full flex-col gap-8 rounded-[10px] border-[1px] border-white-800 bg-white p-8 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-2 hover:shadow-[-25px_47px_66px_0px_#00000014] dark:border-black-200 dark:bg-black-200 dark:hover:bg-black-300 md:flex-row'
+						className='flex w-full flex-col gap-3 rounded-[10px] border-[1px] border-white-800 bg-white p-4 transition-all delay-100 duration-300 ease-in hover:translate-x-6 hover:translate-y-2 hover:shadow-[-25px_47px_66px_0px_#00000014] dark:border-black-200 dark:bg-black-200 dark:hover:bg-black-300 md:flex-row xl:gap-8 xl:p-8'
 						key={experience.name}
 						data-aos='fade-right'
 						data-aos-offset='400'
