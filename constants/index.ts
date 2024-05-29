@@ -17,7 +17,7 @@ export const socialIcons = [
 	{
 		name: 'github',
 		icon: '/assets/github-social.svg',
-		path: 'https://github.com/Hannah-Liao',
+		path: 'https://github.com/HaiyingLiao',
 	},
 	{
 		name: 'linkedin',
@@ -135,8 +135,8 @@ export const projects = [
 		imagePath: '/assets/morent.svg',
 		bgColor: 'bg-[#416CEA]',
 		imageLocation: 'right',
-		siteLink: 'https://cohort5-code-fam-car-rent.vercel.app/',
-		githubLink: 'https://github.com/Hannah-Liao/Morrent',
+		siteLink: 'https://morrent.vercel.app/',
+		githubLink: 'https://github.com/HaiyingLiao/Morrent',
 	},
 	{
 		title: 'JobIT - A Job Finding Application',
@@ -145,7 +145,7 @@ export const projects = [
 		bgColor: 'bg-[#0BAB7C]',
 		imageLocation: 'left',
 		siteLink: 'https://cohort5-code-fam-job-it.vercel.app/',
-		githubLink: 'https://github.com/Hannah-Liao/JobIT',
+		githubLink: 'https://github.com/HaiyingLiao/JobIT',
 	},
 	{
 		title: 'Hipnode - A Social Media Application',
@@ -336,7 +336,7 @@ export const myInfo = [
 			{
 				name: 'github',
 				icon: '/assets/github-social.svg',
-				path: 'https://github.com/Hannah-Liao',
+				path: 'https://github.com/HaiyingLiao',
 			},
 			{
 				name: 'linkedin',
@@ -353,7 +353,7 @@ export const myInfo = [
 	},
 	{
 		label: 'Email Address',
-		content: 'haiying.liao@outlook.com',
+		content: 'haiying1.liao@gmail.com',
 		icon: '/assets/message.svg',
 	},
 ];
@@ -379,7 +379,7 @@ export const caseLinks = [
 export const workExperience = [
 	{
 		name: 'JS Mastery',
-		role: 'Freelance dev',
+		role: 'Freelance developer',
 		time: 'Jun 2023 - Present',
 		logo: '/assets/jsm.png',
 	},
