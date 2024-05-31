@@ -24,6 +24,21 @@ export const socialIcons = [
 		icon: '/assets/linkedin.svg',
 		path: 'https://www.linkedin.com/in/haiying-liao',
 	},
+	{
+		name: 'instagram',
+		icon: '/assets/instagram.svg',
+		path: 'https://www.instagram.com/haiying_liao/',
+	},
+	{
+		name: 'x',
+		icon: '/assets/x.svg',
+		path: 'https://x.com/Haiying_Liao',
+	},
+	{
+		name: 'frontendmentor',
+		icon: '/assets/frontendmentor.svg',
+		path: 'https://www.frontendmentor.io/profile/HaiyingLiao',
+	},
 ];
 
 export const techs = [
@@ -149,12 +164,12 @@ export const projects = [
 	},
 	{
 		title: 'Hipnode - A Social Media Application',
-		techs: ['In Progress'],
+		techs: ['In Progress', 'NextJS', 'TypeScript', 'TailwindCss'],
 		imagePath: '/assets/hipnode.svg',
 		bgColor: 'bg-[#FF6934]',
 		imageLocation: 'right',
-		siteLink: '',
-		githubLink: '',
+		siteLink: 'https://hippnode.vercel.app/',
+		githubLink: 'https://github.com/HaiyingLiao/Hipnode',
 	},
 ];
 
@@ -190,20 +205,20 @@ export const services = [
 		iconLight: "group-hover:bg-[url('/assets/service3-light.svg')]",
 		iconDark: "dark:group-hover:bg-[url('/assets/service3-dark.svg')]",
 	},
-	{
-		title: 'Analytics & SEO',
-		desc: 'Utilise advanced tracking and analytics tools to meticulously monitor website performance, enhancing SEO strategies for optimal visibility.',
-		icon: "bg-[url('/assets/design.svg')]",
-		iconLight: "group-hover:bg-[url('/assets/design-light.svg')]",
-		iconDark: "dark:group-hover:bg-[url('/assets/design-darker.svg')]",
-	},
-	{
-		title: 'Web Optimization',
-		desc: 'Dedicate efforts to optimizing websites, enhancing performance, and delivering a frictionless user experience.',
-		icon: "bg-[url('/assets/service4.svg')]",
-		iconLight: "group-hover:bg-[url('/assets/service4-light.svg')]",
-		iconDark: "dark:group-hover:bg-[url('/assets/service4-dark.svg')]",
-	},
+	// {
+	// 	title: 'Analytics & SEO',
+	// 	desc: 'Utilise advanced tracking and analytics tools to meticulously monitor website performance, enhancing SEO strategies for optimal visibility.',
+	// 	icon: "bg-[url('/assets/design.svg')]",
+	// 	iconLight: "group-hover:bg-[url('/assets/design-light.svg')]",
+	// 	iconDark: "dark:group-hover:bg-[url('/assets/design-darker.svg')]",
+	// },
+	// {
+	// 	title: 'Web Optimization',
+	// 	desc: 'Dedicate efforts to optimizing websites, enhancing performance, and delivering a frictionless user experience.',
+	// 	icon: "bg-[url('/assets/service4.svg')]",
+	// 	iconLight: "group-hover:bg-[url('/assets/service4-light.svg')]",
+	// 	iconDark: "dark:group-hover:bg-[url('/assets/service4-dark.svg')]",
+	// },
 ];
 
 export const caseStudies = [
@@ -343,6 +358,21 @@ export const myInfo = [
 				icon: '/assets/linkedin.svg',
 				path: 'https://www.linkedin.com/in/haiying-liao',
 			},
+			{
+				name: 'instagram',
+				icon: '/assets/instagram.svg',
+				path: 'https://www.instagram.com/haiying_liao/',
+			},
+			{
+				name: 'x',
+				icon: '/assets/x.svg',
+				path: 'https://x.com/Haiying_Liao',
+			},
+			{
+				name: 'frontendmentor',
+				icon: '/assets/frontendmentor.svg',
+				path: 'https://www.frontendmentor.io/profile/HaiyingLiao',
+			},
 		],
 		icon: '',
 	},
@@ -353,7 +383,7 @@ export const myInfo = [
 	},
 	{
 		label: 'Email Address',
-		content: 'haiying1.liao@gmail.com',
+		content: 'haiyingliao.dev@gmail.com',
 		icon: '/assets/message.svg',
 	},
 ];

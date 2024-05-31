@@ -17,14 +17,10 @@ const EmailCopy = () => {
 
 	return (
 		<div className='md:b-bold s-bold flex w-full items-center justify-center gap-2 rounded-[50px] bg-white px-3 py-2 text-white-500 dark:bg-black-200 dark:text-white md:py-3'>
-			<a
-				href='mailto:haiying.liao@outlook.com'
-				target='_blank'
-				className='inline-block'
-			>
-				haiying.liao@outlook.com
+			<a href='mailto:haiying.liao@outlook.com' className='inline-block'>
+				haiyingliao.dev@gmail.com
 			</a>
-			<button onClick={() => handleCLick('haiying.liao@outlook.com')}>
+			<button onClick={() => handleCLick('haiyingliao.dev@gmail.com')}>
 				{isChecked ? (
 					<CheckIcon color='#FFBE62' className='h-5 w-5' />
 				) : (
