@@ -45,9 +45,16 @@ const Contact = () => {
 										height={30}
 										className='infoIcons'
 									/>
-									<p className='p-bold base-bold leading-[130%] text-black-400 dark:text-white'>
+									<a
+										href={
+											info.label === 'Email Address'
+												? 'mailto:haiyingliao.dev@gmail.com'
+												: 'tel:+447450505104'
+										}
+										className='p-bold base-bold leading-[130%] text-black-400 dark:text-white'
+									>
 										{info.content}
-									</p>
+									</a>
 								</div>
 							</div>
 						)
